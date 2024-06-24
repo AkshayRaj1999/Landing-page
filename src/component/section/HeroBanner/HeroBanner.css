@@ -93,3 +93,13 @@
     height: 21px;
     width: 21px;
   }
+  @media screen and (max-width: 700px) {
+    .banner-contetnt-wrapper h4{
+      font-size: 42px;
+    }
+    .banner-content-btn-wrapper{
+      flex-direction: column;
+      gap: 20px !important;
+      align-items: center;
+    }
+  }
