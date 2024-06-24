@@ -15,7 +15,7 @@ function LogoSlider() {
       <div className="container-fluid">
         <div className="slider-wrapper">
           <h4>We are blessed to work with amazing brands worldwide</h4>
-          <div className="slider-images col-lg-12 col-md-12 col-sm-12">
+          <div className="slider-images">
             <Marquee speed={300}>
               {SliderImages.map((data,index)=>(
                 <div className="slider-image-container">

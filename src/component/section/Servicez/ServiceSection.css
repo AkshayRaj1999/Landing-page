@@ -27,8 +27,9 @@
 
 .service-card .card-image-wrapper {
     width: 144px;
-    height: 144px;
+    height: auto;
     aspect-ratio: 1/1;
+    padding: 20px;
 }
 
 .service-card h3 {
@@ -73,4 +74,12 @@
     aspect-ratio: 1 / 1;
     position: absolute;
     transform: translate(-85px, 10px);
+}
+
+@media screen and (max-width: 700px) {
+  .service-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
