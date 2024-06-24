@@ -1,0 +1,76 @@
+.service-wrapper h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.075em;
+    color: var(--purple-color);
+}
+
+.service-wrapper h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.76px;
+    letter-spacing: -0.04em;
+    color: var(--black-color);
+    max-width: 742px;
+    padding-top: 24px;
+}
+
+.service-wrapper h2:hover {
+    color: var(--purple-color);
+}
+
+.service-card-wrapper {
+    display: flex;
+    gap: 90px;
+}
+
+.service-card .card-image-wrapper {
+    width: 144px;
+    height: 144px;
+    aspect-ratio: 1/1;
+}
+
+.service-card h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    letter-spacing: -0.015em;
+    color: var(--purple-color);
+    padding-top: 32px;
+}
+
+.service-card h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #3f3f3f;
+    max-width: 300px;
+    max-height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+.service-card a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: -0.05em;
+    color: var(--black-color);
+    cursor: pointer;
+    position: relative;
+}
+
+.service-card a::after {
+    content: url(../../../images//icons/WavesLogoPurple.svg);
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    transform: translate(-85px, 10px);
+}
