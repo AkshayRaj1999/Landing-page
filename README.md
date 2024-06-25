@@ -1,6 +1,6 @@
 Landing Page
 Description
-This is a cross browser  responsive user centric landing page with a login module configured with FireBase(BaaS) Web SDK
+This is a cross browser  responsive user centric landing page with a login module configured with Auto0(BaaS) Web SDK
 
 Prerequisites
 Node.js (v14.x or later)
