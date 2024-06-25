@@ -30,8 +30,6 @@
     line-height: 48.76px;
     letter-spacing: -0.04em;
     color: var(--black-color);
-    max-width: 672px;
-    text-align: left;
 }
 
 .slider-wrapper h4:hover {
@@ -42,7 +40,7 @@
 
     .service-wrapper h6,
     h2 {
-        text-align: center;
+        text-align: left;
     }
 
     .slider-images {
@@ -56,6 +54,7 @@
         justify-content: center;
     }
     .slider-wrapper h4{
-        text-align: center;
+        text-align: left;
+        padding-left: 10px;
     }
 }

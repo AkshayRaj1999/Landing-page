@@ -9,6 +9,7 @@
     letter-spacing: -0.04em;
     text-align: left;
     color: var(--black-color);
+    padding-bottom: 44px;
 }
 .testimonial-card-wrapper{
     background: #E1DBF6;
