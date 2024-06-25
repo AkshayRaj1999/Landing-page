@@ -1,0 +1,48 @@
+.projectz-container {
+    background-color: var(--purple-color);
+}
+
+.project-wrapper {
+    padding: 136px 0;
+}
+
+.project-wrapper h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.project-wrapper h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.76px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--white-color);
+    max-width: 858px;
+    padding-bottom: 88px;
+    padding-top: 24px;
+}
+
+.project-wrapper .project-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-wrapper .project-card-wrapper h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    color: var(--white-color);
+    padding-bottom: 64px;
+    padding-top: 0;
+}
+.projects-card{
+    cursor: pointer;
+}

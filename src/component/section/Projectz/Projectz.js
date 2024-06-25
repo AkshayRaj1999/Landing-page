@@ -4,6 +4,7 @@ import CREAM from "../../../images/images/Cream.png";
 import FREDI from "../../../images/images/Fredi.png";
 import APPOLO from "../../../images/images/Appolo.png";
 import Card from "../../Card/Card";
+import "./Projectz.css";
 
 function Projectz() {
   const ProjectzCards = [
@@ -34,24 +35,27 @@ function Projectz() {
   ];
   return (
     <section>
-      <div className="container-fluid">
+      <div className="container-fluid projectz-container">
         <div className="project-wrapper">
-          <h6>PROJECTS</h6>
-          <h3>
-            We guide game-changing companies, across platforms & places, through
-            agile design & digital experience. We make waves
-          </h3>
-          <div className="project-card-wrapper col-lg-12 col-md-12 d-flex flex-wrap justify-content-center gap-5">
-            {ProjectzCards.map((data, index) => (
-              <div className="Projectz-card">
-                <Card
-                  title={data.title}
-                  image={data.image}
-                  tag={data.tag}
-                  Cindex={index}
-                />
-              </div>
-            ))}
+          <div className="container">
+            <h6>PROJECTS</h6>
+            <h3>
+              We guide game-changing companies, across platforms & places,
+              through agile design & digital experience. We make waves
+            </h3>
+            <div className="project-card-wrapper col-lg-12 col-md-12">
+              {ProjectzCards.map((data, index) => (
+                <div className="Projectz-card">
+                  <Card
+                    title={data.title}
+                    image={data.image}
+                    tag={data.tag}
+                    Cindex={index}
+                    className={data.className}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
