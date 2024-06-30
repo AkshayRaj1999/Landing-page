@@ -64,6 +64,11 @@
         border-bottom: 16px solid #BDB0EC;
         gap: 30px;
     }
+    .footer-clickable-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .footer-clickable-links-wrapper{
         display: flex;
         align-items: flex-start;

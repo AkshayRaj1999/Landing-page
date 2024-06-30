@@ -33,3 +33,6 @@ img{
 .container-fluid{
     padding: 0 !important;
 }
+.quote{
+    fill: #e1a34f;
+  }
